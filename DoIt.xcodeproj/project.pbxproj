@@ -13,6 +13,7 @@
 		CAFE907D1EA502D000258800 /* DoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CAFE907B1EA502D000258800 /* DoIt.xcdatamodeld */; };
 		CAFE907F1EA502D000258800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFE907E1EA502D000258800 /* Assets.xcassets */; };
 		CAFE90821EA502D000258800 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFE90801EA502D000258800 /* LaunchScreen.storyboard */; };
+		CAFE908A1EA5070300258800 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFE90891EA5070300258800 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CAFE907E1EA502D000258800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAFE90811EA502D000258800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAFE90831EA502D000258800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFE90891EA5070300258800 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				CAFE90741EA502D000258800 /* AppDelegate.swift */,
 				CAFE90761EA502D000258800 /* ViewController.swift */,
+				CAFE90891EA5070300258800 /* Task.swift */,
 				CAFE90781EA502D000258800 /* Main.storyboard */,
 				CAFE907E1EA502D000258800 /* Assets.xcassets */,
 				CAFE90801EA502D000258800 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAFE908A1EA5070300258800 /* Task.swift in Sources */,
 				CAFE907D1EA502D000258800 /* DoIt.xcdatamodeld in Sources */,
 				CAFE90771EA502D000258800 /* ViewController.swift in Sources */,
 				CAFE90751EA502D000258800 /* AppDelegate.swift in Sources */,
