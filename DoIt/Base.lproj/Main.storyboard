@@ -63,29 +63,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WxK-89-1dr">
-                                <rect key="frame" x="162.5" y="95" width="50" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WxK-89-1dr">
+                                <rect key="frame" x="162.5" y="94" width="50" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f9p-4B-CWA">
-                                <rect key="frame" x="56" y="142" width="263" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f9p-4B-CWA">
+                                <rect key="frame" x="56" y="125" width="263" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Important:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OdF-xr-uLD">
-                                <rect key="frame" x="147.5" y="201" width="80" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Important:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OdF-xr-uLD">
+                                <rect key="frame" x="147.5" y="185" width="80" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="MXr-v7-kFE">
-                                <rect key="frame" x="163" y="267" width="51" height="31"/>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="MXr-v7-kFE">
+                                <rect key="frame" x="163" y="216" width="51" height="31"/>
                             </switch>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iPZ-bJ-dzl">
-                                <rect key="frame" x="172.5" y="329" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iPZ-bJ-dzl">
+                                <rect key="frame" x="172.5" y="277" width="30" height="30"/>
                                 <state key="normal" title="Add"/>
                                 <connections>
                                     <action selector="addButtonTapped:" destination="hMr-6a-NzO" eventType="touchUpInside" id="zpS-cW-Q6J"/>
@@ -101,6 +101,7 @@
                             <constraint firstItem="f9p-4B-CWA" firstAttribute="centerX" secondItem="BHg-tw-Nfd" secondAttribute="centerX" id="PhI-86-BuD"/>
                             <constraint firstItem="OdF-xr-uLD" firstAttribute="centerX" secondItem="BHg-tw-Nfd" secondAttribute="centerX" id="SAz-uB-84G"/>
                             <constraint firstItem="iPZ-bJ-dzl" firstAttribute="top" secondItem="MXr-v7-kFE" secondAttribute="bottom" constant="30" id="T0K-jg-Ery"/>
+                            <constraint firstItem="WxK-89-1dr" firstAttribute="top" secondItem="aZr-TJ-wkx" secondAttribute="bottom" constant="30" id="TnH-gk-p1k"/>
                             <constraint firstItem="iPZ-bJ-dzl" firstAttribute="centerX" secondItem="BHg-tw-Nfd" secondAttribute="centerX" id="gA3-sf-GAg"/>
                             <constraint firstItem="WxK-89-1dr" firstAttribute="centerX" secondItem="BHg-tw-Nfd" secondAttribute="centerX" id="idh-AO-wam"/>
                             <constraint firstItem="MXr-v7-kFE" firstAttribute="centerX" secondItem="BHg-tw-Nfd" secondAttribute="centerX" id="l7I-Mk-bLl"/>
