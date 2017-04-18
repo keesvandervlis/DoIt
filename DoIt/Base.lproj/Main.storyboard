@@ -13,7 +13,7 @@
         <!--DoIT!-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" customModule="DoIt" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="TasksViewController" customModule="DoIt" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -39,6 +39,7 @@
                         <barButtonItem key="backBarButtonItem" title="Back" id="xEt-82-GjT"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="UQD-H6-LEZ">
                             <connections>
+                                <action selector="AddButtonTapped:" destination="BYZ-38-t0r" id="8qy-OQ-mFm"/>
                                 <segue destination="hMr-6a-NzO" kind="show" id="40d-So-yMW"/>
                             </connections>
                         </barButtonItem>

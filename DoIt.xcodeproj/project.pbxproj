@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CAFE90751EA502D000258800 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFE90741EA502D000258800 /* AppDelegate.swift */; };
-		CAFE90771EA502D000258800 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFE90761EA502D000258800 /* ViewController.swift */; };
+		CAFE90771EA502D000258800 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFE90761EA502D000258800 /* TasksViewController.swift */; };
 		CAFE907A1EA502D000258800 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFE90781EA502D000258800 /* Main.storyboard */; };
 		CAFE907D1EA502D000258800 /* DoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CAFE907B1EA502D000258800 /* DoIt.xcdatamodeld */; };
 		CAFE907F1EA502D000258800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFE907E1EA502D000258800 /* Assets.xcassets */; };
@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		CAFE90711EA502D000258800 /* DoIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAFE90741EA502D000258800 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CAFE90761EA502D000258800 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAFE90761EA502D000258800 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		CAFE90791EA502D000258800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CAFE907C1EA502D000258800 /* DoIt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoIt.xcdatamodel; sourceTree = "<group>"; };
 		CAFE907E1EA502D000258800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,10 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				CAFE90741EA502D000258800 /* AppDelegate.swift */,
-				CAFE90761EA502D000258800 /* ViewController.swift */,
+				CAFE90761EA502D000258800 /* TasksViewController.swift */,
+				CAFE908B1EA54D6800258800 /* addTaskViewController.swift */,
 				CAFE90891EA5070300258800 /* Task.swift */,
 				CAFE90781EA502D000258800 /* Main.storyboard */,
-				CAFE908B1EA54D6800258800 /* addTaskViewController.swift */,
 				CAFE907E1EA502D000258800 /* Assets.xcassets */,
 				CAFE90801EA502D000258800 /* LaunchScreen.storyboard */,
 				CAFE90831EA502D000258800 /* Info.plist */,
@@ -148,7 +148,7 @@
 				CAFE908C1EA54D6800258800 /* addTaskViewController.swift in Sources */,
 				CAFE908A1EA5070300258800 /* Task.swift in Sources */,
 				CAFE907D1EA502D000258800 /* DoIt.xcdatamodeld in Sources */,
-				CAFE90771EA502D000258800 /* ViewController.swift in Sources */,
+				CAFE90771EA502D000258800 /* TasksViewController.swift in Sources */,
 				CAFE90751EA502D000258800 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

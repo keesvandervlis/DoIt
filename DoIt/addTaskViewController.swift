@@ -14,6 +14,8 @@ class addTaskViewController: UIViewController {
     
     @IBOutlet weak var taskImportant: UISwitch!
     
+    var previousVC = TasksViewController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,5 +24,14 @@ class addTaskViewController: UIViewController {
 
 
     @IBAction func addButtonTapped(_ sender: Any) {
+      
+        let task = Task()
+        task.name = taskName.text!
+        task.important = taskImportant.isOn
+        
+        previousVC.tasks.append(task)
+        previousVC.tableView.reloadData()
+        navigationController!.popViewController(animated: true)
+        
     }
 }
