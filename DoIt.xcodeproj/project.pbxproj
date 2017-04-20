@@ -15,6 +15,7 @@
 		CAFE90821EA502D000258800 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFE90801EA502D000258800 /* LaunchScreen.storyboard */; };
 		CAFE908A1EA5070300258800 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFE90891EA5070300258800 /* Task.swift */; };
 		CAFE908C1EA54D6800258800 /* addTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFE908B1EA54D6800258800 /* addTaskViewController.swift */; };
+		CAFE908E1EA801DD00258800 /* CompleteTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFE908D1EA801DD00258800 /* CompleteTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CAFE90831EA502D000258800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAFE90891EA5070300258800 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		CAFE908B1EA54D6800258800 /* addTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addTaskViewController.swift; sourceTree = "<group>"; };
+		CAFE908D1EA801DD00258800 /* CompleteTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				CAFE90741EA502D000258800 /* AppDelegate.swift */,
 				CAFE90761EA502D000258800 /* TasksViewController.swift */,
+				CAFE908D1EA801DD00258800 /* CompleteTaskViewController.swift */,
 				CAFE908B1EA54D6800258800 /* addTaskViewController.swift */,
 				CAFE90891EA5070300258800 /* Task.swift */,
 				CAFE90781EA502D000258800 /* Main.storyboard */,
@@ -147,6 +150,7 @@
 			files = (
 				CAFE908C1EA54D6800258800 /* addTaskViewController.swift in Sources */,
 				CAFE908A1EA5070300258800 /* Task.swift in Sources */,
+				CAFE908E1EA801DD00258800 /* CompleteTaskViewController.swift in Sources */,
 				CAFE907D1EA502D000258800 /* DoIt.xcdatamodeld in Sources */,
 				CAFE90771EA502D000258800 /* TasksViewController.swift in Sources */,
 				CAFE90751EA502D000258800 /* AppDelegate.swift in Sources */,
