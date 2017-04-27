@@ -13,7 +13,6 @@
 		CAFE907D1EA502D000258800 /* DoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CAFE907B1EA502D000258800 /* DoIt.xcdatamodeld */; };
 		CAFE907F1EA502D000258800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFE907E1EA502D000258800 /* Assets.xcassets */; };
 		CAFE90821EA502D000258800 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFE90801EA502D000258800 /* LaunchScreen.storyboard */; };
-		CAFE908A1EA5070300258800 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFE90891EA5070300258800 /* Task.swift */; };
 		CAFE908C1EA54D6800258800 /* addTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFE908B1EA54D6800258800 /* addTaskViewController.swift */; };
 		CAFE908E1EA801DD00258800 /* CompleteTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFE908D1EA801DD00258800 /* CompleteTaskViewController.swift */; };
 /* End PBXBuildFile section */
@@ -27,7 +26,6 @@
 		CAFE907E1EA502D000258800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAFE90811EA502D000258800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAFE90831EA502D000258800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CAFE90891EA5070300258800 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		CAFE908B1EA54D6800258800 /* addTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addTaskViewController.swift; sourceTree = "<group>"; };
 		CAFE908D1EA801DD00258800 /* CompleteTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,7 +64,6 @@
 				CAFE90761EA502D000258800 /* TasksViewController.swift */,
 				CAFE908D1EA801DD00258800 /* CompleteTaskViewController.swift */,
 				CAFE908B1EA54D6800258800 /* addTaskViewController.swift */,
-				CAFE90891EA5070300258800 /* Task.swift */,
 				CAFE90781EA502D000258800 /* Main.storyboard */,
 				CAFE907E1EA502D000258800 /* Assets.xcassets */,
 				CAFE90801EA502D000258800 /* LaunchScreen.storyboard */,
@@ -149,7 +146,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAFE908C1EA54D6800258800 /* addTaskViewController.swift in Sources */,
-				CAFE908A1EA5070300258800 /* Task.swift in Sources */,
 				CAFE908E1EA801DD00258800 /* CompleteTaskViewController.swift in Sources */,
 				CAFE907D1EA502D000258800 /* DoIt.xcdatamodeld in Sources */,
 				CAFE90771EA502D000258800 /* TasksViewController.swift in Sources */,
@@ -317,6 +313,7 @@
 				CAFE90881EA502D000258800 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
